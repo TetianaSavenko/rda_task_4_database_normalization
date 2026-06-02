@@ -48,5 +48,5 @@ INSERT INTO Warehouses (ID, Name, Address, CountryID) VALUES
 (2, 'Warehouse-2', 'City-2, Street-2', 2);
     
 INSERT INTO ProductInventory (ID, ProductID, WarehouseID, WarehouseAmount) VALUES
-(1, 1, 2),
-(1, 2, 5);
+(1, 1, 1, 2),
+(2, 1, 2, 5);
